@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: FilteringSidebarItem renders without crashing 1`] = `
+<div
+  className="filtering-sidebar__item"
+>
+  <input
+    className="filtering-sidebar__item__icon"
+    defaultChecked={false}
+    id="tag-name-1"
+    name="filter"
+    onClick={[Function]}
+    type="radio"
+    value="tag-name-1"
+  />
+  <label
+    className="filtering-sidebar__item__name"
+    htmlFor="tag-name-1"
+  >
+    SDK 1
+  </label>
+</div>
+`;

@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ResultsSection renders without crashing 1`] = `
+<ul
+  className="results-section"
+>
+  <li
+    className="results-section__item"
+  >
+    <span
+      className="results-section__item__title"
+    >
+      SDK 1
+    </span>
+    <span
+      className="results-section__item__description"
+    >
+      tag-name-1, tag-name-2
+    </span>
+  </li>
+  <li
+    className="results-section__item"
+  >
+    <span
+      className="results-section__item__title"
+    >
+      SDK 2
+    </span>
+    <span
+      className="results-section__item__description"
+    >
+      tag-name-3, tag-name-5
+    </span>
+  </li>
+  <li
+    className="results-section__item"
+  >
+    <span
+      className="results-section__item__title"
+    >
+      SDK 3
+    </span>
+    <span
+      className="results-section__item__description"
+    >
+      tag-name-2, tag-name-3, tag-name-4
+    </span>
+  </li>
+</ul>
+`;

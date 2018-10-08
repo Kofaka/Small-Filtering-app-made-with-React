@@ -1,0 +1,24 @@
+.app-container {
+  &__header {
+
+    &__title {
+      font-size: larger;
+    }
+  }
+
+  &__main {
+    display: grid;
+    grid-template-columns: 35% auto;
+    height: 400px;
+
+    &__section {
+      margin: 0;
+      padding: 0.5em;
+      width: 100%;
+      place-self: stretch stretch;
+      border: 1px solid grey;
+      box-sizing: border-box;
+      overflow: scroll;
+    }
+  }
+}

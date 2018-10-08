@@ -1,0 +1,26 @@
+.results-section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  grid-gap: 1.5em;
+  margin: 0;
+  padding: 0 1.5em;
+
+  &__item {
+    margin: 0 1.5em 1em 0;
+    padding: 0;
+
+    &__title {
+      display: block;
+      text-transform: uppercase;
+      font-size: larger;
+      font-weight: bold;
+    }
+
+    &__description {
+      display: block;
+      text-transform: capitalize;
+      font-size: x-small;
+    }
+  }
+}
